@@ -52,7 +52,7 @@ class Buttons extends React.Component {
     } catch (error) {
       console.error("Error in calculation:", error);
       this.setState({ number: "Error" });
-      this.props.handleResult("Error"); // Pass an error message to the callback
+      this.props.handleResult("Error"); 
     }
 
   }
